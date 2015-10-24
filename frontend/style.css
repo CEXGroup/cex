@@ -15,19 +15,28 @@ html, body {
   margin: 10px 10px 10px 10px;
 }
 
+.chat {
+  flex-grow: 1;
+}
+
 .header {
   border-bottom: solid 1px;
   color: #46494C;
-  /*flex-grow: 1;*/
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 50px;
   margin: 0 0 0 10px;
   padding: 0;
 }
 
+.message {
+  flex-grow: 5;
+}
+
 .shit {
   background-color: transparent;
-  font-size: 100px;
-  flex-grow: 6;
-  margin: 10px 20px 20px 20px;
+  /*border-bottom: solid 1px;*/
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 10px 100px 20px 100px;
 }
