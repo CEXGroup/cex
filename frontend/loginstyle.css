@@ -1,0 +1,78 @@
+
+html, body {
+  /*background-color: #F5ECB7;*/
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  flex-direction: row-reverse;
+  height: 100%;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.advance {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.challenge {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login {
+  color: #F10C49;
+  font-size: 20px;
+}
+
+#accepted {
+  background-color: transparent;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius:6px;
+   color: #339194;
+   font-family: 'Alegreya Sans SC', sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+   cursor: pointer;
+   border: solid 1px;
+
+   margin: 50px 10px 10px 10px;
+}
+
+#lwf {
+  font-size: 60px;
+}
+
+#username {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #339194;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #F6D86B;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #F6D86B;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #F6D86B;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #F6D86B;
+}
