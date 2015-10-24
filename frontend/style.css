@@ -32,6 +32,20 @@ html, body {
   padding: 0;
 }
 
+.holder {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.information {
+  background-color: #D0E0EB;
+  display: flex;
+  justify-content: center;
+  margin: 5% 5% 5% 2%;
+  width: 30%;
+}
+
 .message {
   background-color: transparent;
   flex-grow: 5;
@@ -43,7 +57,7 @@ html, body {
   display: flex;
   flex-grow: 1;
   flex-direction: column-reverse;
-  margin: 10px 20% 20px 20%;
+  margin: 10px 2% 20px 5%;
 }
 
 #textMessage {
