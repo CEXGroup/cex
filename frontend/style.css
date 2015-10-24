@@ -7,7 +7,7 @@ html, body {
 }
 
 .main {
-  background-color: #23192D;
+  background-color: transparent;
   display: flex;
   font-family: 'Alegreya Sans SC', sans-serif;
   flex-direction: column;
@@ -16,7 +16,8 @@ html, body {
 }
 
 .header {
-  color: #F5ECB7;
+  border-bottom: solid 1px;
+  color: #46494C;
   /*flex-grow: 1;*/
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 50px;
@@ -25,7 +26,7 @@ html, body {
 }
 
 .shit {
-  background-color: #F5ECB7;
+  background-color: transparent;
   font-size: 100px;
   flex-grow: 6;
   margin: 10px 20px 20px 20px;
