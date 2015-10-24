@@ -39,7 +39,8 @@ html, body {
 }
 
 .information {
-  background-color: #D0E0EB;
+  background-color: transparent;
+  border-left: solid 1px #4D64BC;
   display: flex;
   justify-content: center;
   margin: 5% 5% 5% 2%;
