@@ -16,7 +16,11 @@ html, body {
 }
 
 .chat {
+  background-color: transparent;
+  border-top: solid 1px #4D64BC;
+  display: flex;
   flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .header {
@@ -29,6 +33,7 @@ html, body {
 }
 
 .message {
+  background-color: transparent;
   flex-grow: 5;
 }
 
@@ -37,6 +42,16 @@ html, body {
   /*border-bottom: solid 1px;*/
   display: flex;
   flex-grow: 1;
-  flex-direction: column;
-  margin: 10px 100px 20px 100px;
+  flex-direction: column-reverse;
+  margin: 10px 20% 20px 20%;
+}
+
+#textMessage {
+  background-color: transparent;
+  border: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  margin: 0 5% 0 5%;
+  text-align: right;
+  width: 100%;
 }
