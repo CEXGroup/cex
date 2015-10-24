@@ -1,0 +1,29 @@
+/* stylesheet */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #23192D;
+  display: flex;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  height: 100%;
+  margin: 10px 10px 10px 10px;
+}
+
+.header {
+  color: #F5ECB7;
+  flex-grow: 1;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.shit {
+  font-size: 100px;
+  color: 000;
+}
