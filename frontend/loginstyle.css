@@ -59,6 +59,7 @@ html, body {
   border-bottom: 1px solid #4D64BC;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 20px;
+  outline:0;
 }
 
 /* do not group these rules */
